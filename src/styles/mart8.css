@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poiret+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: #5b8270;
+  border-bottom: #f8fbf7 3px solid;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+#aside {
+  background: url("/left.jpg") no-repeat;
+  height: 500px;
+  width: 25%;
+  margin: 0;
+}
+#main {
+  background: #fbc2e2;
+  height: 500px;
+  width: 50%;
+  margin: 0;
+  border: #1b5222 1px solid;
+}
+h1 {
+  color: #352911;
+  text-align: center;
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#button1 {
+  width: 24%;
+  height: 30px;
+  margin-left: 320px;
+  border-radius: 5px;
+}
+#aside2 {
+  background: url("/right.jpg") no-repeat;
+  height: 500px;
+  width: 25%;
+  margin: 0;
+}
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #5b8270;
+  border-top: #f8fbf7 3px solid;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+#row {
+  position: relative;
+  left: 1200px;
+  color: #352911;
+}
+#main4 {
+  width: 100%;
+  height: 400px;
+}
+p {
+  text-align: center;
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: bold;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+#main5 {
+  width: 50%;
+  height: 400px;
+  padding-top: 70px;
+  margin: 0%;
+}
+
+#aside6,
+#aside7 {
+  width: 25%;
+  height: 400px;
+  background: url("/heart.jpg");
+  margin: 0%;
+}
